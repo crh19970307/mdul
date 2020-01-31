@@ -71,6 +71,9 @@ tests_requires = [
     'mock>=2.0.0',
     'pytest<5.0',
 ]
+install_requires = [
+    'requests',
+]
 
 setup(
     name='mdul',
