@@ -1,6 +1,10 @@
 # mdul
 
-`mdul` is a utility to upload local images in markdown to [sm.ms](sm.ms) and convert markdown file correspondingly. It will also convert markdown equation format.
+[![pypi](https://img.shields.io/pypi/v/mdul.svg?style=flat)][pypi_mdul]
+[![Build Status](https://travis-ci.com/crh19970307/mdul.svg?branch=master)](https://travis-ci.com/crh19970307/mdul)
+[![license](https://img.shields.io/github/license/crh19970307/mdul.svg?maxAge=86400)](LICENSE)
+
+It is safe to store images locally when writing markdown but it's not convenient compared to uploading images into cloud. `mdul` is a utility to upload local images in markdown to [sm.ms](https://sm.ms) and convert markdown file correspondingly. It will also convert markdown equation format. 
 
 ## Installation
 
