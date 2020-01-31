@@ -87,6 +87,7 @@ setup(
     author_email='rhchang@pku.edu.cn',
     keywords='markdown image upload convert',
     packages=['mdul'],
+    install_requires=install_requires,
     extras_require={'test': tests_requires},
     setup_requires=['pytest-runner'],
     tests_require=tests_requires,
