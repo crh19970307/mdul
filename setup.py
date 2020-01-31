@@ -67,6 +67,11 @@ class DeployCommand(Command):
 
 __version__ = read_version()
 
+tests_requires = [
+    'mock>=2.0.0',
+    'pytest<5.0',
+]
+
 setup(
     name='mdul',
     version=__version__,
@@ -79,6 +84,7 @@ setup(
     author_email='rhchang@pku.edu.cn',
     keywords='markdown image upload convert',
     packages=['mdul'],
+    extras_require={'test': tests_requires},
     setup_requires=['pytest-runner'],
     tests_require=tests_requires,
     entry_points={
