@@ -1,6 +1,6 @@
 # mdul
 
-[![pypi](https://img.shields.io/pypi/v/mdul.svg?style=flat)](pypi_mdul)
+[![pypi](https://img.shields.io/pypi/v/mdul.svg?style=flat)](https://pypi.org/project/mdul/)
 [![Build Status](https://travis-ci.org/crh19970307/mdul.svg?branch=master)](https://travis-ci.org/crh19970307/mdul)
 [![license](https://img.shields.io/github/license/crh19970307/mdul.svg)](LICENSE)
 
@@ -9,9 +9,7 @@ It is safe to store images locally when writing markdown but it's not convenient
 ## Installation
 
 ```bash
-git clone https://github.com/crh19970307/mdul.git
-cd mdul
-python setup.py install
+pip install mdul
 ```
 
 ## Usage
